@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Analytics = () => {
   return (
@@ -11,7 +12,9 @@ const Analytics = () => {
         />
         <div className="flex flex-col justify-center">
           <p className="text-green-400">DATA ANALYTICS DASHBOARD</p>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold py-2">Manange Data Analytics Centrally</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold py-2">
+            Manange Data Analytics Centrally
+          </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, in a,
             officiis voluptatibus totam sit excepturi amet fugit molestias
@@ -20,7 +23,13 @@ const Analytics = () => {
             aliquam debitis tempora ipsum est, non et voluptatibus quibusdam
             enim dolorum, cum iste voluptate id doloribus!
           </p>
-          <button className="bg-black text-green-400 mx-0 w-[200px] py-3 rounded-md font-medium my-6 hover:bg-green-600 hover:text-white cursor-pointer">Get Started</button>
+          <Button
+            content={"Get Started"}
+            type={"button"}
+            className={
+              "bg-black text-green-400 hover:bg-green-600 hover:text-white"
+            }
+          />
         </div>
       </div>
     </div>
