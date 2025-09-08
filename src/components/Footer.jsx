@@ -26,7 +26,7 @@ const Footer = () => {
             <p className="text-gray-400 mb-3">Support</p>
             <div className="flex flex-col gap-3">
               <a href="">Pricing</a>
-              <a href="">Document</a>
+              <a href="">Documentation</a>
               <a href="">Guides</a>
               <a href="">Api Status</a>
             </div>
