@@ -4,8 +4,8 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <main className="h-[88vh] bg-black flex items-center justify-center p-1">
-      <div className="layout text-center">
+    <main className=" bg-black flex items-center justify-center p-1">
+      <div className="container mx-auto px-6 py-20 text-center">
         <h3 className="text-green-400 font-bold md:text-xl md:my-7">
           GROWING WITH DATA ANALYTICS
         </h3>

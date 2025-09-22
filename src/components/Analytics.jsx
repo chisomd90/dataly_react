@@ -4,7 +4,7 @@ import Button from "./Button";
 const Analytics = () => {
   return (
     <div className="bg-white w-full py-16 px-2">
-      <div className="layout grid md:grid-cols-2 gap-5">
+      <div className="container mx-auto px-6 py-10 grid md:grid-cols-2 gap-5">
         <img
           src="https://dataly-nine.vercel.app/assets/laptop-BkUviYdN.jpg"
           alt="analytics image"
@@ -27,7 +27,7 @@ const Analytics = () => {
             content={"Get Started"}
             type={"button"}
             className={
-              "bg-black text-green-400 hover:bg-green-600 hover:text-white"
+              "bg-black text-green-400 mt-5 hover:bg-green-600 hover:text-white"
             }
           />
         </div>
